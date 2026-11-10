@@ -1,0 +1,11 @@
+{
+  "org": "rust-lang",
+  "repo": "hashbrown",
+  "versions": [
+    {
+      "commit": "f7bae3d165a3191d086a506ce6a39e516ffd5c67",
+      "tag": "",
+      "parsed_at": "2026-11-10T05:23:38.177065+00:00"
+    }
+  ]
+}
