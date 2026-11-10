@@ -8,7 +8,8 @@
     {
       "@id": "https://repolex.ai/r/rust-lang/hashbrown/commit/f7bae3d165a3191d086a506ce6a39e516ffd5c67",
       "git:hexsha": "f7bae3d165a3191d086a506ce6a39e516ffd5c67",
-      "repolex:parseStatus": "ast_complete"
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-11-10T05:23:38.176350+00:00"
     },
     {
       "@id": "https://repolex.ai/r/rust-lang/hashbrown/commit/2e2e8275381912bab7776ea1e31d2b3b4d810589",
