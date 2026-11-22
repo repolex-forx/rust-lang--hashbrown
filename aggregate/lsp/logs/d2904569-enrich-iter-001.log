@@ -1,0 +1,24 @@
+[2026-11-22T01:56:28Z] === ENRICH ITERATION 1 START | repo=rust-lang/hashbrown sha=d2904569 ===
+[2026-11-22T01:56:28Z] [iter=1] PHASE START: enrich repo=rust-lang/hashbrown sha=d2904569 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/d2904569-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/d290456969d0e89e6799d8a673c95112962b70ec.nq.gz
+[2026-11-22T01:56:40Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-22T01:56:46Z] [iter=1] AST store loaded triples=800416 load_secs=6 mem_mb=775 MB
+[2026-11-22T01:56:46Z] [iter=1] Step 2: Finding LSP targets mem_mb=775 MB
+[2026-11-22T01:56:47Z] [iter=1] LSP targets found call_sites=4285 imports=133 extends=0 implements=909 secs=1
+[2026-11-22T01:56:48Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=775 MB
+[2026-11-22T01:56:50Z] [iter=1] Position index built positions=57824 nodes_with_types=63785 secs=2 mem_mb=775 MB
+[2026-11-22T01:56:50Z] [iter=1] Step 3: Starting LSP resolution mem_mb=775 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T01:56:50Z] [iter=1] Resolving target type target_type=call_site count=4285
+[2026-11-22T01:57:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.6 files_done=0 resolved=0 errors=0 current=src/raw.rs
+[2026-11-22T01:58:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.9 files_done=1 resolved=599 errors=0 current=src/map.rs
+[2026-11-22T01:59:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.3 files_done=2 resolved=1807 errors=0 current=tests/rayon.rs
+[2026-11-22T02:00:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.3 files_done=5 resolved=2492 errors=0 current=tests/equivalent_trait.rs
+[2026-11-22T02:01:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.9 files_done=23 resolved=2873 errors=0 current=src/control/group/lsx.rs
+[2026-11-22T02:01:31Z] [iter=1] Target type resolved target_type=call_site resolved=2976 errors=0 secs=281 mem_mb=775 MB
+[2026-11-22T02:01:31Z] [iter=1] Resolving target type target_type=import_statement count=133
+[2026-11-22T02:01:41Z] [iter=1] Target type resolved target_type=import_statement resolved=92 errors=0 secs=10 mem_mb=775 MB
+[2026-11-22T02:01:41Z] [iter=1] Resolving target type target_type=implements_clause count=909
+[2026-11-22T02:01:50Z] [iter=1] HEARTBEAT target_type=implements_clause elapsed_min=5.4 files_done=3 resolved=490 errors=0 current=src/external_trait_impls/rayon/raw.rs
+[2026-11-22T02:01:51Z] [iter=1] Target type resolved target_type=implements_clause resolved=606 errors=0 secs=10 mem_mb=775 MB
+[2026-11-22T02:05:30Z] [iter=1] Step 5: Writing final enrichment file triples=44646
+[2026-11-22T02:05:30Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/d290456969d0e89e6799d8a673c95112962b70ec.nq.gz size_kb=874
+[2026-11-22T02:05:30Z] [iter=1] PHASE END: enrich elapsed_s=542 elapsed_min=9.0 total_triples=44646

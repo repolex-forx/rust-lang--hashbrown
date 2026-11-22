@@ -151,6 +151,123 @@
       ],
       "ast": [
         "aggregate/ast/d290456969d0e89e6799d8a673c95112962b70ec/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/d290456969d0e89e6799d8a673c95112962b70ec.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "foldhash",
+          "ecosystem": "CARGO",
+          "version": "0.2.0",
+          "githubOrg": "orlp",
+          "githubRepo": "foldhash",
+          "githubCommit": "8f878c636fda9c9e93384824ea45e06d03f009f5",
+          "githubTag": "v0.2.0",
+          "githubUrl": "https://github.com/orlp/foldhash",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rayon",
+          "ecosystem": "CARGO",
+          "version": "1.9.0",
+          "githubOrg": "rayon-rs",
+          "githubRepo": "rayon",
+          "githubCommit": "990841b313d1a566d2b7f4f33c61e0f0ac9dc7b6",
+          "githubTag": "v1.9.0",
+          "githubUrl": "https://github.com/rayon-rs/rayon",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde_core",
+          "ecosystem": "CARGO",
+          "version": "1.0.221",
+          "githubOrg": "serde-rs",
+          "githubRepo": "serde",
+          "githubCommit": "ff3aee490abff5267cac86f07e0301aa6d441760",
+          "githubTag": "v1.0.221",
+          "githubUrl": "https://github.com/serde-rs/serde",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "allocator-api2",
+          "ecosystem": "CARGO",
+          "version": "0.2.9",
+          "githubOrg": "zakarumych",
+          "githubRepo": "allocator-api2",
+          "githubUrl": "https://github.com/zakarumych/allocator-api2",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "equivalent",
+          "ecosystem": "CARGO",
+          "version": "1.0",
+          "githubOrg": "indexmap-rs",
+          "githubRepo": "equivalent",
+          "githubUrl": "https://github.com/indexmap-rs/equivalent",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rand",
+          "ecosystem": "CARGO",
+          "version": "0.9.0",
+          "githubOrg": "rust-random",
+          "githubRepo": "rand",
+          "githubCommit": "96f8df65ee6b4368d91a006f9c5b4a8050abae49",
+          "githubTag": "0.9.0",
+          "githubUrl": "https://github.com/rust-random/rand",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "fnv",
+          "ecosystem": "CARGO",
+          "version": "1.0.7",
+          "githubOrg": "servo",
+          "githubRepo": "rust-fnv",
+          "githubCommit": "4b4784ebfd3332dc61f0640764d6f1140e03a9ab",
+          "githubTag": "v1.0.7",
+          "githubUrl": "https://github.com/servo/rust-fnv",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde_test",
+          "ecosystem": "CARGO",
+          "version": "1.0",
+          "githubOrg": "serde-rs",
+          "githubRepo": "test",
+          "githubUrl": "https://github.com/serde-rs/test",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "bumpalo",
+          "ecosystem": "CARGO",
+          "version": "3.13.0",
+          "githubOrg": "fitzgen",
+          "githubRepo": "bumpalo",
+          "githubCommit": "fd3dd5767658ad634581d0bc8267c3ed00ec9ec5",
+          "githubTag": "3.13.0",
+          "githubUrl": "https://github.com/fitzgen/bumpalo",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "criterion",
+          "ecosystem": "CARGO",
+          "version": "0.7",
+          "githubOrg": "criterion-rs",
+          "githubRepo": "criterion.rs",
+          "githubUrl": "https://github.com/criterion-rs/criterion.rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "libc",
+          "ecosystem": "CARGO",
+          "version": "0.2.191",
+          "githubOrg": "rust-lang",
+          "githubRepo": "libc",
+          "githubCommit": "ccc2ff4aaab962f7fde7b8edda7379c045b1ca12",
+          "githubTag": "0.2.191",
+          "githubUrl": "https://github.com/rust-lang/libc",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/mod.rs"
+        }
       ]
     }
   ],
